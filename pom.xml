@@ -5,8 +5,8 @@
 	<groupId>org.tobiaszpietryga</groupId>
 	<artifactId>order-common</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>order-common</name>
-	<description>Order common</description>
+	<name>Order Common</name>
+	<description>Order Common</description>
 	<url/>
 	<licenses>
 		<license/>
