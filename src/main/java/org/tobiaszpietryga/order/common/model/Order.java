@@ -5,11 +5,13 @@ import java.math.BigDecimal;
 
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.Value;
 
 
 @Builder
 @Data
+@NoArgsConstructor
 public class Order {
 	@ConstructorProperties({"id", "customerId", "name", "status", "price", "paymentStarted", "stockStarted"})
 	public Order(Long id, Long customerId, String name, Status status, Integer price, boolean paymentStarted, boolean stockStarted) {
