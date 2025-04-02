@@ -1,4 +1,4 @@
-package org.tobiaszpietryga.kafka_producer.model;
+package org.tobiaszpietryga.order.common.model;
 
 import lombok.Builder;
 import lombok.Value;
