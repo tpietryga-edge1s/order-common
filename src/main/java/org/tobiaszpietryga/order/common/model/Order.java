@@ -14,7 +14,7 @@ public class Order {
 	Long customerId;
 	String name;
 	Status status;
-	BigDecimal price;
+	Integer price;
 	boolean paymentStarted;
 	boolean stockStarted;
 }
