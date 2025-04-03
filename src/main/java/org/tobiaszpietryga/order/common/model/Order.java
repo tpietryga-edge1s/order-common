@@ -13,7 +13,7 @@ import lombok.Value;
 @Data
 @NoArgsConstructor
 public class Order {
-	@ConstructorProperties({"id", "customerId", "productId", "name", "status", "price", "productCount"})
+	@ConstructorProperties({"id", "customerId", "productId", "name", "status", "price", "productCount", "paymentStarted", "stockStarted"})
 	public Order(Long id, Long customerId, Long productId, String name, Status status, Integer price, Integer productCount, boolean paymentStarted, boolean stockStarted) {
 		this.id = id;
 		this.customerId = customerId;
